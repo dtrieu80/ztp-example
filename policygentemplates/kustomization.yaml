@@ -1,0 +1,16 @@
+generators:
+- common-ranGen.yaml
+- group-du-sno-ranGen.yaml
+- group-du-sno-validator-ranGen.yaml
+- group-du-3node-ranGen.yaml
+- group-du-3node-validator-ranGen.yaml
+- group-du-standard-ranGen.yaml
+- group-du-standard-validator-ranGen.yaml
+- example-sno-site.yaml
+- example-multinode-site.yaml
+
+resources:
+- ns.yaml
+- hub-side-templating/configMaps/group-hardware-types-configmap.yaml
+- hub-side-templating/configMaps/group-zones-configmap.yaml
+- hub-side-templating/configMaps/site-data-configmap.yaml
